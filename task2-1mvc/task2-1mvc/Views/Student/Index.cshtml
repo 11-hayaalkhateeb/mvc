@@ -1,0 +1,31 @@
+﻿@*@model IEnumerable<task2_1mvc.Models.Student>*@
+
+@{ViewBag.Title = "Index";
+}
+
+<h2>Student</h2>
+<table class="table table-bordered">
+    <tr>
+        <th> Student id </th>
+
+        <th> Student Name</th>
+
+        <th> Student Major</th>
+
+        <th> Student Faculity</th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.id</td>
+            <td> @item.Name</td>
+         <td> @item.Major</td>
+         <td>@item.Faculity</td>
+        </tr>
+
+    }
+
+    </table>
