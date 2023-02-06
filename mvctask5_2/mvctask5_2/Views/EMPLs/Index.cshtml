@@ -79,7 +79,7 @@
                 @*//  <img src="../image/@item.image" width="50" height="50" />*@
             </td>
             <td>
-                <a href="Download?CV=@item.cv">@item.cv</a>
+                <a href="Download?CV=@item.cv" download>@item.cv</a>
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
