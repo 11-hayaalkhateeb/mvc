@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="430d78d58b4c46dabec9f6b89449e30d" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="MVC7FEBModel.cat" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC7FEBModel.IMAGE" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC7FEBModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MVC7FEBModel.AspNetRole" Width="1.5" PointX="3.75" PointY="3" />
+        <EntityTypeShape EntityType="MVC7FEBModel.AspNetUserClaim" Width="1.5" PointX="3" PointY="10.875" />
+        <EntityTypeShape EntityType="MVC7FEBModel.AspNetUserLogin" Width="1.5" PointX="3" PointY="5.5" />
+        <EntityTypeShape EntityType="MVC7FEBModel.AspNetUserRole" Width="1.5" PointX="6" PointY="6.875" />
+        <EntityTypeShape EntityType="MVC7FEBModel.AspNetUser" Width="1.5" PointX="0.75" PointY="5.875" />
+        <AssociationConnector Association="MVC7FEBModel.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" />
+        <AssociationConnector Association="MVC7FEBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="MVC7FEBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="MVC7FEBModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
